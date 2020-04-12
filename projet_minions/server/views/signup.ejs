@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Page d'inscription</title>
+		<link rel="stylesheet" href="css/login.css">
+		<style>
+		.login-form h2 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 11px;
+			padding: 20px 0 20px 0;
+		</style>
+	</head>
+	<body>
+		<div class="login-form">
+			<h1>Inscription</h1>
+			<form action="inscr" method="POST">
+				<input type="text" name="username" placeholder="Pseudo" required>
+				<input type="password" name="password" placeholder="Mot de passe" required>
+				<input type="submit">
+			</form>
+			<h2>Vous serez redirigé vers la page de connexion si votre inscription est valide.</h2>
+		</div>
+	</body>
+</html>
